@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary1</name>
+    </assembly>
+    <members>
+        <member name="M:ClassLibrary1.MyLibrary.Add(System.Int32,System.Int32)">
+            <summary>
+            Складывает два целых числа.
+            </summary>
+            <param name="num1">Первое целое число.</param>
+            <param name="num2">Второе целое число.</param>
+            <returns>Сумма двух целых чисел.</returns>
+        </member>
+        <member name="M:ClassLibrary1.MyLibrary.Add(System.Double,System.Double)">
+            <summary>
+            Складывает два числа с плавающей точкой.
+            </summary>
+            <param name="num1">Первое число с плавающей точкой.</param>
+            <param name="num2">Второе число с плавающей точкой.</param>
+            <returns>Сумма двух чисел с плавающей точкой.</returns>
+        </member>
+        <member name="M:ClassLibrary1.MyLibrary.Add(System.String,System.String)">
+            <summary>
+            Складывает два числа, представленных в виде строк.
+            </summary>
+            <param name="num1">Первое число в виде строки.</param>
+            <param name="num2">Второе число в виде строки.</param>
+            <returns>Сумма двух чисел или 0, если строки не могут быть преобразованы в числа.</returns>
+        </member>
+        <member name="M:ClassLibrary1.MyLibrary.Substract(System.Int32,System.Int32)">
+            <summary>
+            Вычитает одно целое число из другого.
+            </summary>
+            <param name="num1">Уменьшаемое целое число.</param>
+            <param name="num2">Вычитаемое целое число.</param>
+            <returns>Разность двух целых чисел.</returns>
+        </member>
+        <member name="M:ClassLibrary1.MyLibrary.Substract(System.Double,System.Double)">
+            <summary>
+            Вычитает одно число с плавающей точкой из другого.
+            </summary>
+            <param name="num1">Уменьшаемое число с плавающей точкой.</param>
+            <param name="num2">Вычитаемое число с плавающей точкой.</param>
+            <returns>Разность двух чисел с плавающей точкой.</returns>
+        </member>
+        <member name="M:ClassLibrary1.MyLibrary.Substract(System.String,System.String)">
+            <summary>
+            Вычитает одно число из другого, представленных в виде строк.
+            </summary>
+            <param name="num1">Уменьшаемое число в виде строки.</param>
+            <param name="num2">Вычитаемое число в виде строки.</param>
+            <returns>Разность двух чисел или 0, если строки не могут быть преобразованы в числа.</returns>
+        </member>
+        <member name="M:ClassLibrary1.MyLibrary.Multiply(System.Int32,System.Int32)">
+            <summary>
+            Умножает два целых числа.
+            </summary>
+            <param name="num1">Первое целое число.</param>
+            <param name="num2">Второе целое число.</param>
+            <returns>Произведение двух целых чисел.</returns>
+        </member>
+        <member name="M:ClassLibrary1.MyLibrary.Multiply(System.Double,System.Double)">
+            <summary>
+            Умножает два числа с плавающей точкой.
+            </summary>
+            <param name="num1">Первое число с плавающей точкой.</param>
+            <param name="num2">Второе число с плавающей точкой.</param>
+            <returns>Произведение двух чисел с плавающей точкой.</returns>
+        </member>
+        <member name="M:ClassLibrary1.MyLibrary.Multiply(System.String,System.String)">
+            <summary>
+            Умножает два числа, представленных в виде строк.
+            </summary>
+            <param name="num1">Первое число в виде строки.</param>
+            <param name="num2">Второе число в виде строки.</param>
+            <returns>Произведение двух чисел или 0, если строки не могут быть преобразованы в числа.</returns>
+        </member>
+        <member name="M:ClassLibrary1.MyLibrary.Divide(System.Int32,System.Int32)">
+            <summary>
+            Делит одно целое число на другое.
+            </summary>
+            <param name="num1">Делимое целое число.</param>
+            <param name="num2">Делитель целое число.</param>
+            <returns>Частное двух целых чисел.</returns>
+        </member>
+        <member name="M:ClassLibrary1.MyLibrary.Divide(System.Double,System.Double)">
+            <summary>
+            Делит одно число с плавающей точкой на другое.
+            </summary>
+            <param name="num1">Делимое число с плавающей точкой.</param>
+            <param name="num2">Делитель число с плавающей точкой.</param>
+            <returns>Частное двух чисел с плавающей точкой.</returns>
+        </member>
+        <member name="M:ClassLibrary1.MyLibrary.Divide(System.String,System.String)">
+            <summary>
+            Делит одно число на другое, представленных в виде строк.
+            </summary>
+            <param name="num1">Делимое число в виде строки.</param>
+            <param name="num2">Делитель число в виде строки.</param>
+            <returns>Частное двух чисел или 0, если строки не могут быть преобразованы в числа.</returns>
+        </member>
+        <member name="M:ClassLibrary1.MyLibrary.Power(System.Int32,System.Int32)">
+            <summary>
+            Возводит целое число в степень.
+            </summary>
+            <param name="num1">Основание степени.</param>
+            <param name="num2">Показатель степени.</param>
+            <returns>Результат возведения числа в степень.</returns>
+        </member>
+        <member name="M:ClassLibrary1.MyLibrary.Power(System.Double,System.Double)">
+            <summary>
+            Возводит число с плавающей точкой в степень.
+            </summary>
+            <param name="num1">Основание степени.</param>
+            <param name="num2">Показатель степени.</param>
+            <returns>Результат возведения числа в степень.</returns>
+        </member>
+        <member name="M:ClassLibrary1.MyLibrary.SquareRoot(System.Double,System.Int32)">
+            <summary>
+            Вычисляет квадратный корень числа с использованием итерационного метода.
+            </summary>
+            <param name="val">Число, из которого извлекается корень.</param>
+            <param name="nIter">Количество итераций для уточнения результата (по умолчанию 10).</param>
+            <returns>Квадратный корень числа.</returns>
+            <exception cref="T:System.ArgumentOutOfRangeException">Выбрасывается, если входное значение меньше 0.</exception>
+        </member>
+    </members>
+</doc>

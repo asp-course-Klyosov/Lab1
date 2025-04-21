@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MyAwfqwrgegegLibrary</id>
+    <version>1.0.0</version>
+    <authors>YourName</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>An awesome library that does amazing things</description>
+    <tags>awesome utility tools</tags>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\semester4\ITAcademy\courseASP\ConsoleApp1\ClassLibrary1\bin\Release\net8.0\ClassLibrary1.dll" target="lib\net8.0\ClassLibrary1.dll" />
+    <file src="D:\semester4\ITAcademy\courseASP\ConsoleApp1\ClassLibrary1\bin\Release\net8.0\MyAwfqwrgegegLibrary.xml" target="lib\net8.0\MyAwfqwrgegegLibrary.xml" />
+  </files>
+</package>
